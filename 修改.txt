@@ -1,0 +1,3 @@
+1. USBH_UsLog(...)重定向
+	#define USBH_DEBUG_LEVEL      1     改为1
+	printf重定向

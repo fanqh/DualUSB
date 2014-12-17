@@ -1,0 +1,52 @@
+*** Creating Trace Output File 'dual_usb_test Configuration\dual_usb_test Configuration.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"dual_usb_test configuration\startup_stm32f407xx.o"'
+### List of Objects: adding '"dual_usb_test configuration\gpio.o"'
+### List of Objects: adding '"dual_usb_test configuration\main.o"'
+### List of Objects: adding '"dual_usb_test configuration\stm32f4xx_it.o"'
+### List of Objects: adding '"dual_usb_test configuration\usart.o"'
+### List of Objects: adding '"dual_usb_test configuration\usb_host.o"'
+### List of Objects: adding '"dual_usb_test configuration\usbh_conf.o"'
+### List of Objects: adding '"dual_usb_test configuration\system_stm32f4xx.o"'
+### List of Objects: adding '"dual_usb_test configuration\stm32f4xx_hal.o"'
+### List of Objects: adding '"dual_usb_test configuration\stm32f4xx_hal_cortex.o"'
+### List of Objects: adding '"dual_usb_test configuration\stm32f4xx_hal_dma.o"'
+### List of Objects: adding '"dual_usb_test configuration\stm32f4xx_hal_dma_ex.o"'
+### List of Objects: adding '"dual_usb_test configuration\stm32f4xx_hal_flash.o"'
+### List of Objects: adding '"dual_usb_test configuration\stm32f4xx_hal_flash_ex.o"'
+### List of Objects: adding '"dual_usb_test configuration\stm32f4xx_hal_flash_ramfunc.o"'
+### List of Objects: adding '"dual_usb_test configuration\stm32f4xx_hal_gpio.o"'
+### List of Objects: adding '"dual_usb_test configuration\stm32f4xx_hal_hcd.o"'
+### List of Objects: adding '"dual_usb_test configuration\stm32f4xx_hal_pwr.o"'
+### List of Objects: adding '"dual_usb_test configuration\stm32f4xx_hal_pwr_ex.o"'
+### List of Objects: adding '"dual_usb_test configuration\stm32f4xx_hal_rcc.o"'
+### List of Objects: adding '"dual_usb_test configuration\stm32f4xx_hal_rcc_ex.o"'
+### List of Objects: adding '"dual_usb_test configuration\stm32f4xx_hal_uart.o"'
+### List of Objects: adding '"dual_usb_test configuration\stm32f4xx_ll_usb.o"'
+### List of Objects: adding '"dual_usb_test configuration\usbh_hid.o"'
+### List of Objects: adding '"dual_usb_test configuration\usbh_hid_keybd.o"'
+### List of Objects: adding '"dual_usb_test configuration\usbh_hid_mouse.o"'
+### List of Objects: adding '"dual_usb_test configuration\usbh_hid_parser.o"'
+### List of Objects: adding '"dual_usb_test configuration\usbh_msc.o"'
+### List of Objects: adding '"dual_usb_test configuration\usbh_msc_bot.o"'
+### List of Objects: adding '"dual_usb_test configuration\usbh_msc_scsi.o"'
+### List of Objects: adding '"dual_usb_test configuration\usbh_core.o"'
+### List of Objects: adding '"dual_usb_test configuration\usbh_ctlreq.o"'
+### List of Objects: adding '"dual_usb_test configuration\usbh_ioreq.o"'
+### List of Objects: adding '"dual_usb_test configuration\usbh_pipes.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp "dual_usb_test configuration\startup_stm32f407xx.o" "dual_usb_test configuration\gpio.o" "dual_usb_test configuration\main.o" "dual_usb_test configuration\stm32f4xx_it.o" "dual_usb_test configuration\usart.o" "dual_usb_test configuration\usb_host.o" "dual_usb_test configuration\usbh_conf.o" "dual_usb_test configuration\system_stm32f4xx.o" "dual_usb_test configuration\stm32f4xx_hal.o" "dual_usb_test configuration\stm32f4xx_hal_cortex.o" "dual_usb_test configuration\stm32f4xx_hal_dma.o" "dual_usb_test configuration\stm32f4xx_hal_dma_ex.o" "dual_usb_test configuration\stm32f4xx_hal_flash.o" "dual_usb_test configuration\stm32f4xx_hal_flash_ex.o" "dual_usb_test configuration\stm32f4xx_hal_flash_ramfunc.o" "dual_usb_test configuration\stm32f4xx_hal_gpio.o" "dual_usb_test configuration\stm32f4xx_hal_hcd.o" "dual_usb_test configuration\stm32f4xx_hal_pwr.o" "dual_usb_test configuration\stm32f4xx_hal_pwr_ex.o" "dual_usb_test configuration\stm32f4xx_hal_rcc.o" "dual_usb_test configuration\stm32f4xx_hal_rcc_ex.o" "dual_usb_test configuration\stm32f4xx_hal_uart.o" "dual_usb_test configuration\stm32f4xx_ll_usb.o" "dual_usb_test configuration\usbh_hid.o" "dual_usb_test configuration\usbh_hid_keybd.o" "dual_usb_test configuration\usbh_hid_mouse.o" "dual_usb_test configuration\usbh_hid_parser.o" "dual_usb_test configuration\usbh_msc.o" "dual_usb_test configuration\usbh_msc_bot.o" "dual_usb_test configuration\usbh_msc_scsi.o" "dual_usb_test configuration\usbh_core.o" "dual_usb_test configuration\usbh_ctlreq.o" "dual_usb_test configuration\usbh_ioreq.o" "dual_usb_test configuration\usbh_pipes.o" --library_type=microlib --strict --scatter "dual_usb_test Configuration\dual_usb_test Configuration.sct" 
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "dual_usb_test Configuration.map" -o "dual_usb_test Configuration\dual_usb_test Configuration.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'dual_usb_test Configuration\dual_usb_test Configuration.axf'
+### ADS-LD Command File: 'dual_usb_test Configuration\dual_usb_test Configuration.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'dual_usb_test Configuration\dual_usb_test Configuration.lnp', Handle=0x000002A0
+### Writing '.lnp' file
+### ADS-LD Command file 'dual_usb_test Configuration\dual_usb_test Configuration.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
